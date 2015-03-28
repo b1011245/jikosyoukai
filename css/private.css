@@ -1,0 +1,130 @@
+
+
+/* 全部のCSSで共通！！*/
+
+body {font-family: 'Hiragino maru Gothic ProN', 'ヒラギノ丸ゴ ProN W3',
+                   'Meiryo', 'メイリオ', 'sans-serif';
+      margin:0px;
+      padding:0px;}
+
+ul {list-style:none;}/*listの"・"をとる*/
+
+
+a {text-decoration: none;}/*リンク指定の文字の下線を消す*/
+a:link { color: black; }/*リンク指定した文字の通常時の色*/
+a:visited { color: black; }/*リンク先を訪れたことがあるときの色*/
+a:hover { color: gray; }/*リンク指定した文字の上にカーソルがある場合の色*/
+a:active { color: gray; }/*リンク指定した文字の通常時の色*/
+
+
+
+/* リンクによって異なるやつ！！*/
+
+div.main {
+  position: absolute;
+    width:  450px;        /* 横幅 */
+    height: 400px;        /* 高さ */
+    top: 200px;
+    left: 20%;
+   overflow: auto;  /* 内容がはみ出る場合の表示方法 */
+/*border-width: thin;
+border-color: black;
+border-style: solid;*/
+}
+
+
+div.twitter {
+  position: absolute;
+    width:  50px;        /* 横幅 */
+    height: 50px;        /* 高さ */
+    top: 50%;
+    left: 50%;
+    margin-left: -325px;
+/*border-width: thin;
+border-color: black;
+border-style: solid;*/
+}
+div.fb {
+  position: absolute;
+    width:  50px;        /* 横幅 */
+    height: 50px;        /* 高さ */
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+/*border-width: thin;
+border-color: black;
+border-style: solid;*/
+}
+div.instagram {
+  position: absolute;
+    width:  50px;        /* 横幅 */
+    height: 50px;        /* 高さ */
+    top: 50%;
+    left: 50%;
+    margin-left: 300px;
+/*border-width: thin;
+border-color: black;
+border-style: solid;*/
+}
+
+ /* メニューバーのCSS！！ */
+/* 上に書いてもいいけどHTMLと対応させるために下に書く！！ */
+
+div.box{
+   position: fixed;
+   background-color: white;
+   width:  900px;        /* 横幅 */
+   height: 90px;        /* 高さ */
+   top: 0px;
+   left: 50%;
+   margin-left: -450px;
+/* border-width: thin; 
+   border-color: black;
+   border-style: solid;*/
+}
+
+hr {
+  border-top: 1px solid #bbb;
+}
+
+div.sen{
+   position: fixed;
+   width:  900px;        /* 横幅 */
+   height: 10px;        /* 高さ */
+   top: 80px;
+   left: 50%;
+   margin-left: -450px;
+}
+
+div.logo {
+    position: fixed;
+    width:  200px;        /* 横幅 */
+    height: 40px;        /* 高さ */
+    top: 30px;
+    left: 50%;
+    margin-left: -435px;   /*マイナス「横幅÷2」*/ 
+}
+
+div.menu{
+   position: fixed;
+   width:  885px;        /* 横幅 */
+   height: 100px;        /* 高さ */
+   top: 40px;
+   left: 50%;
+   margin-left: -445px;
+/* border-width: thin; 
+   border-color: black;
+   border-style: solid;*/
+}
+
+ul.menu li{
+         float:right;/*listを横並びにする*/
+         margin-left: 35px;
+
+/*       border-width: thin;
+         border-color: black;
+         border-style: solid;*/
+}
+
+
+
